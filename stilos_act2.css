@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c9611d;
+    display: flex; /* Centra el contenedor-grid en la página */
+    justify-content: center;
+    align-items: center; /* Centra verticalmente */
+    min-height: 100vh; /* Asegura que el body ocupe todo el alto de la pantalla */
+    margin: 0;
+  }
+  
+  /* Contenedor principal de la cuadrícula *
+  
+  /* Estilos para todas las tarjetas */
+  .tarjeta-producto {
+    width: 320px;
+    padding: 20px;
+    background-color: rgb(214, 143, 37);
+    border: 1px solid #ccc;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 20px 15px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box; /* Asegura que el padding se incluya en el ancho */
+  }
+  
+  /* Estilos para las imágenes dentro de las tarjetas */
+  .tarjeta-producto img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Estilos para todas las etiquetas de oferta */
+  .etiqueta-oferta {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(54, 136, 34);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+  }
+
+  .etiqueta-oferta2 {
+    position: center;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(54, 136, 34);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+  }
+  
+  .etiqueta-oferta3 {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    background-color: rgb(54, 136, 34);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+  }
+  
+  .etiqueta-oferta4 {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    background-color: rgb(54, 136, 34);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+  }
+  
+  
+  /* Evitamos la duplicación de código para h2 y p */
+  h2 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+    color: #000000;
+  }
+  
+  p {
+    font-size: 1em;
+    color: #000000;
+    margin: 0;
+    line-height: 1.4;
+  }
